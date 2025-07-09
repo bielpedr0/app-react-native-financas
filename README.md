@@ -1,15 +1,30 @@
-<<<<<<< HEAD
-# Sample Snack app
+# Meu Gestor de Gastos - React Native 💰📱
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Aplicativo de controle financeiro pessoal desenvolvido em **React Native**, como trabalho avaliativo da disciplina **Desenvolvimento para Dispositivos Móveis** (Prof. Antonio Neto).
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## 📌 Funcionalidades
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- Navegação com abas (Tab Navigation):
+  - **Resumo**: saldo final, receitas, despesas, cores dinâmicas.
+  - **Novo Gasto**: registrar gastos e ganhos (descrição, valor, categoria).
+  - **Histórico**: lista de gastos com cores para ganhos (verde) e perdas (vermelho).
+  - **Perfil**: preencher nome, e-mail e selecionar avatar da galeria.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## 💻 Tecnologias
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
-=======
-# app-react-native-financas
->>>>>>> 665a01db4345538bd44d5dbc0295be7cc07f407e
+- React Native
+- Expo
+- React Navigation
+- Context API
+- StyleSheet (estilização personalizada)
+
+## 🧩 Componentes Reutilizáveis
+
+- Cabeçalho (`Titulo`)
+- Input customizado
+- Botão customizado
+- Card de gasto
+- Avatar
+- Rodapé
+- Menu
+- Componente de resumo financeiro
